@@ -6,8 +6,8 @@ export interface User {
   name: string
   username: string
   email: string
-  address: Address
+  address?: Address
   phone: string
   website: string
-  company: Company
+  company?: Company
 }
